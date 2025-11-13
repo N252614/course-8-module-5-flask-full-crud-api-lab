@@ -171,3 +171,32 @@ After completing this lab, you will:
 ✅ Return proper HTTP status codes and structured responses  
 
 This is a critical step in your backend developer journey. Next up: persistent databases!
+
+# Flask CRUD Events API
+
+## Routes
+
+POST /events
+
+Create a new event.
+
+Example JSON:
+{"title": "Hackathon"}
+
+PATCH /events/
+
+Update the title of an existing event.
+
+Example JSON:
+{"title": "Hackathon 2025"}
+
+DELETE /events/<id>
+
+Delete an event by ID.
+
+### Run the server
+```bush 
+Run the server
+```
+The API will be available at:
+http://127.0.0.1:5000
